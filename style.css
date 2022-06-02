@@ -16,11 +16,16 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .header{
     margin-bottom: 15px;
     text-align: left;
     font-size: 20px;
     color: white;
+}
+.container :hover .header{
+    cursor: pointer;
+    color: aqua;
 }
 .card{
     background-color: hsl(216, 50%, 16%);
@@ -96,6 +101,10 @@ body{
 }
 .jules{
     color: white;
+}
+.text :hover {
+    cursor: pointer;
+    color: aqua;
 }
 .farbe{
     color: aqua;
